@@ -28,11 +28,13 @@ attributes:
         cask_apps:
             - dropbox
             - eclipse-jee
+            - gimp
             - google-chrome
             - firefox
             - iterm2
             - java7
             - libreoffice
+            - picasa
             - rdio
             - skype
             - slack
