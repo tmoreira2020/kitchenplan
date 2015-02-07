@@ -6,7 +6,6 @@ recipes:
         - homebrewalt::default
         - applications::sublime_text_3
         - osxdefaults::menu_add_battery_percentage
-        - osxdefaults::set_computer_name
         - osxdefaults::tap_to_click
 attributes:
     mysql_root_password: root
