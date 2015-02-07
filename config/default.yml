@@ -9,6 +9,9 @@ recipes:
         - osxdefaults::tap_to_click
 attributes:
     mysql_root_password: root
+    git:
+        name: Thiago Leão Moreira
+        email: tmoreira2020@gmail.com
     homebrewalt:
         apps:
             - ant
