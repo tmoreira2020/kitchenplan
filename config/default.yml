@@ -27,6 +27,7 @@ attributes:
             - zsh
         cask_apps:
             - dropbox
+            - eclipse-jee
             - google-chrome
             - firefox
             - iterm2
@@ -39,5 +40,7 @@ attributes:
             - vagrant
             - vagrant-manager
             - virtualbox
+            - visualvm
+            - yourkit-java-profiler
         cask_fonts:
             - inconsolata
