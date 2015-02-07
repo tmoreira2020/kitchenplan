@@ -25,6 +25,7 @@ attributes:
             - unrar
             - wget
             - zsh
+            - zsh-completions
         cask_apps:
             - dropbox
             - eclipse-jee
