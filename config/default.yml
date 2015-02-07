@@ -1,17 +1,41 @@
-recipes:                                       # Configs are parsed and every list is appended to each other, chef handles order and de-duplication
-    global:                                    # Recipes mentioned under "global" are installed for all operating systems (we used to support linux, and may do so in the future)
+recipes:
+    global:
         - applications::create_var_chef_cache
-    mac_os_x:                                  # Recipes mentioned under "mac_os_x" are installed on OSX and OSX Server
-        - homebrewalt::default                 # Installs homebrew and homebrew cask and installs all apps mentioned in the homebrewalt:apps and homebrewalt:cask_apps attributes
-        - nodejs::default                      # Installs nodejs and installs all nodejs packages mentioned in the nodejs:apps attribute
+        - applications::mysql
+    mac_os_x:
+        - homebrewalt::default
+        - applications::sublime_text_3
+        - osxdefaults::menu_add_battery_percentage
+        - osxdefaults::set_computer_name
+        - osxdefaults::tap_to_click
 attributes:
+    mysql_root_password: root
     homebrewalt:
         apps:
+            - ant
             - git
+            - git-extras
+            - gnupg
+            - jmeter
+            - maven
+            - svn
+            - tree
+			- unrar
+            - wget
+            - zsh
         cask_apps:
+            - dropbox
             - google-chrome
-        cask_fonts:   
+            - firefox
+            - iterm2
+            - java7
+            - libreoffice
+            - rdio
+            - skype
+            - slack
+            - sourcetree
+            - vagrant
+            - vagrant-manager
+            - virtualbox
+        cask_fonts:
             - inconsolata
-    nodejs:
-        apps:
-            - bower
