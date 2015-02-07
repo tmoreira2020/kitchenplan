@@ -22,7 +22,7 @@ attributes:
             - maven
             - svn
             - tree
-			- unrar
+            - unrar
             - wget
             - zsh
         cask_apps:
