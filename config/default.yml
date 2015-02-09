@@ -20,6 +20,7 @@ attributes:
             - gnupg
             - jmeter
             - maven
+            - npm
             - svn
             - tree
             - unrar
