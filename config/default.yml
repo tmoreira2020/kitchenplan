@@ -27,6 +27,7 @@ attributes:
             - zsh
             - zsh-completions
         cask_apps:
+            - aqua-data-studio
             - dropbox
             - eclipse-jee
             - gimp
