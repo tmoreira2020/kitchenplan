@@ -49,3 +49,6 @@ attributes:
             - yourkit-java-profiler
         cask_fonts:
             - inconsolata
+    nodejs:
+        apps:
+            - gh
