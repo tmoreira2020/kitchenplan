@@ -18,6 +18,7 @@ attributes:
             - git
             - git-extras
             - gnupg
+            - ImageMagick
             - jmeter
             - maven
             - npm
