@@ -5,6 +5,7 @@ recipes:
     mac_os_x:
         - homebrewalt::default
         - applications::sublime_text_3
+        - osxdefaults::finder_new_finder_windows_shows_homefolder
         - osxdefaults::menu_add_battery_percentage
         - osxdefaults::tap_to_click
 attributes:
