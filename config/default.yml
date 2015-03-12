@@ -38,9 +38,11 @@ attributes:
             - firefox
             - iterm2
             - java7
+            - kindle
             - microsoft-office
             - picasa
             - rdio
+            - send-to-kindle
             - skype
             - slack
             - sourcetree
